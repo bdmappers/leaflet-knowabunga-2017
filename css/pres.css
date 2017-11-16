@@ -82,3 +82,38 @@
     left: -220px;
     top: 5%;
 }
+
+.reveal span.issue-label {
+    display: inline-block;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(27,31,35,0.12)    
+}
+
+.reveal span.first-issue {
+    background-color: #bfe5bf;
+    color: #2a332a;
+}
+
+.reveal span.help-wanted-issue {
+    background-color: #009800;
+    color: #fff;
+}
+
+.reveal span.needs-discussion-issue {
+    background-color: #c7def8;
+    color: #282d33;
+}
+
+.reveal span.brainmelt-issue {
+    background-color: #d4c5f9;
+    color: #2b2833;
+}
+
+.reveal ul.non-bulleted {
+    list-style: none;
+}
